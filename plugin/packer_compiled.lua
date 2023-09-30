@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/arman/.local/share/nvim/site/pack/packer/start/copilot.lua",
     url = "https://github.com/zbirenbaum/copilot.lua"
   },
+  ["deadcolumn.nvim"] = {
+    loaded = true,
+    path = "/home/arman/.local/share/nvim/site/pack/packer/start/deadcolumn.nvim",
+    url = "https://github.com/Bekaboo/deadcolumn.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/arman/.local/share/nvim/site/pack/packer/start/harpoon",
