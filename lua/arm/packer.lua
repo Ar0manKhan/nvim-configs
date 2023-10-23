@@ -24,13 +24,6 @@ return require('packer').startup(function(use)
 
   use("tpope/vim-fugitive")
 
-  --[[
-  use {
-    "github/copilot.vim"
-  }
-  ]]--
-  use { "zbirenbaum/copilot.lua" }
-
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
