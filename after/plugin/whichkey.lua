@@ -113,15 +113,21 @@ local mappings = {
         l = {
                 name = "LSP",
                 a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
+                d = { "<cmd>lua vim.lsp.buf.definition()<cr>", "Definition" },
+                D = { "<cmd>lua vim.lsp.buf.declaration()<cr>", "Declaration" },
+                i = { "<cmd>lua vim.lsp.buf.implementation()<cr>", "Implementation" },
+                f = { "<cmd>lua vim.lsp.buf.format()<cr>", "Format" },
                 i = { "<cmd>LspInfo<cr>", "Info" },
                 l = { "<cmd>lua vim.lsp.codelens.run()<cr>", "CodeLens Action" },
-                r = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
+                r = { "<cmd>lua vim.lsp.buf.references()<cr>", "References" },
+                R = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
                 s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },
                 S = {
                         "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>",
                         "Workspace Symbols",
                 },
         },
+        D = { "<cmd>lua vim.lsp.buf.type_definition()<cr>", "Type Definition" },
 
 }
 
