@@ -9,6 +9,7 @@ require'nvim-treesitter.configs'.setup {
 	  "python",
 	  "go",
 	  "c",
+    "java",
 	  "lua",
 	  "vim",
 	  "vimdoc",
