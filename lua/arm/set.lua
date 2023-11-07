@@ -7,7 +7,7 @@ opt.tabstop = 2
 opt.shiftwidth = 2
 opt.softtabstop = 2
 opt.smartindent = true
-opt.expandtab = false -- Use spaces instead of tabs
+opt.expandtab = true -- Use spaces instead of tabs
 
 opt.wrap = false
 

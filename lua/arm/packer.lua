@@ -13,8 +13,12 @@ return require('packer').startup(function(use)
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
 
+  use("folke/tokyonight.nvim")
 
-  use({ 'rose-pine/neovim', as = 'rose-pine' })
+  use {
+    'akinsho/bufferline.nvim',
+    requires = { { 'nvim-tree/nvim-web-devicons' } }
+  }
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
@@ -58,4 +62,7 @@ return require('packer').startup(function(use)
   use {
     "folke/which-key.nvim",
   }
+
+  -- copilot
+  use { "zbirenbaum/copilot.lua" }
 end)
