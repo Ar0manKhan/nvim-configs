@@ -87,4 +87,7 @@ return require('packer').startup(function(use)
       require 'alpha'.setup(require 'alpha.themes.dashboard'.config)
     end
   }
+
+  -- nvim cursorline
+  use { 'yamatsum/nvim-cursorline', config = function() require('nvim-cursorline').setup() end }
 end)
