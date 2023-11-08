@@ -103,9 +103,6 @@ local mappings = {
     c = { "<cmd>Telescope commands<cr>", "Commands" },
   },
 
-  -- Alpha dashboard
-  ["a"] = { "<cmd>Alpha<cr>", "Alpha" },
-
   -- git(fugitive)
   g = {
     name = "Git",
