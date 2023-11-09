@@ -87,20 +87,15 @@ local mappings = {
 
   -- Telescope
   f = {
-    name = "File Search",
-    c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
+    name = "Find / Search",
+    b = { "<cmd>Telescope file_browser<cr>", "File Browser" },
+    c = { "<cmd>Telescope commands<cr>", "Commands" },
     f = { "<cmd>lua require('telescope.builtin').find_files()<cr>", "Find files" },
+    h = { "<cmd>Telescope help_tags<cr>", "Find Help" },
+    k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
+    m = { "<cmd>Telescope man_pages<cr>", "Man Pages" },
     t = { "<cmd>Telescope live_grep <cr>", "Find Text Pattern In All Files" },
     r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" },
-  },
-
-  s = {
-    name = "Search",
-    h = { "<cmd>Telescope help_tags<cr>", "Find Help" },
-    m = { "<cmd>Telescope man_pages<cr>", "Man Pages" },
-    r = { "<cmd>Telescope registers<cr>", "Registers" },
-    k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
-    c = { "<cmd>Telescope commands<cr>", "Commands" },
   },
 
   -- git(fugitive)
