@@ -126,6 +126,7 @@ local mappings = {
     D = { "<cmd>lua vim.lsp.buf.declaration()<cr>", "Declaration" },
     i = { "<cmd>lua vim.lsp.buf.implementation()<cr>", "Implementation" },
     f = { "<cmd>lua vim.lsp.buf.format()<cr>", "Format" },
+    k = { "<cmd>lua vim.lsp.buf.signature_help<cr>", "Signature Help" },
     l = { "<cmd>lua vim.lsp.codelens.run()<cr>", "CodeLens Action" },
     r = { "<cmd>lua vim.lsp.buf.references()<cr>", "References" },
     R = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
