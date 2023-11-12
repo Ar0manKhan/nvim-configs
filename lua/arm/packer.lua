@@ -36,11 +36,14 @@ return require('packer').startup(function(use)
   -- gitsigns
   use("lewis6991/gitsigns.nvim")
 
+  -- lsp
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
+  -- java lsp
+  use("mfussenegger/nvim-jdtls")
 
   use {
     "hrsh7th/nvim-cmp",
