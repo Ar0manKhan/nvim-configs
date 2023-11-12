@@ -12,7 +12,6 @@ mason_lspconfig.setup({
     "golangci_lint_ls",
     'gopls',
     'html',
-    'jdtls',
     'jsonls',
     'lua_ls',
     'pyright',
@@ -28,7 +27,7 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 local lspconfig = require('lspconfig')
 
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'bashls', 'clangd', 'cssls', 'dockerls', 'eslint', 'golangci_lint_ls', 'gopls', 'html', 'jdtls', 'jsonls', 'lua_ls', 'pyright', 'tsserver', 'tailwindcss', 'vimls', 'yamlls' }
+local servers = { 'bashls', 'clangd', 'cssls', 'dockerls', 'eslint', 'golangci_lint_ls', 'gopls', 'html', 'jsonls', 'lua_ls', 'pyright', 'tsserver', 'tailwindcss', 'vimls', 'yamlls' }
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     -- on_attach = my_custom_on_attach,
