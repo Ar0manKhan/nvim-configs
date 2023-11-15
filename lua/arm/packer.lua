@@ -17,7 +17,8 @@ return require('packer').startup(function(use)
     }
   }
 
-  use("folke/tokyonight.nvim")
+  -- color scheme - gruvbox
+  use("dracula/vim")
 
   use {
     'akinsho/bufferline.nvim',
