@@ -136,6 +136,10 @@ local mappings = {
       "Workspace Symbols",
     },
   },
+
+  -- map leader + p to find files in the current project
+  p = { "<cmd>Telescope find_files<cr>", "Find Files In Project" },
+
   D = { "<cmd>lua vim.lsp.buf.type_definition()<cr>", "Type Definition" },
 
 }
