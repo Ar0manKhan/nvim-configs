@@ -9,7 +9,7 @@ opt.softtabstop = 2
 opt.smartindent = true
 opt.expandtab = true -- Use spaces instead of tabs
 
-opt.wrap = false
+-- opt.wrap = false
 
 opt.swapfile = false
 opt.backup = false
@@ -27,7 +27,6 @@ opt.isfname:append("@-@")
 opt.updatetime = 50
 
 opt.colorcolumn = "80"
-
 opt.autowrite = true           -- Enable auto write
 opt.clipboard = "unnamedplus"  -- Sync with system clipboard
 opt.completeopt = "menu,menuone,noselect"
